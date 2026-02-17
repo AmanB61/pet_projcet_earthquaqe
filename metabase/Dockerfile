@@ -1,5 +1,5 @@
-
-FROM openjdk:19-buster
+# Dockerfile для Metabase
+FROM eclipse-temurin:21-jre-jammy
 
 ENV MB_PLUGINS_DIR=/home/plugins/
 
